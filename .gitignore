@@ -1,0 +1,10 @@
+# Raw Kaggle data (too large for GitHub) — download archive.zip from
+# https://www.kaggle.com/datasets/davidcariboo/player-scores and unzip into data/
+data/
+
+# CSV copy of the cleaned table (the parquet is committed)
+clean/player_seasons.csv
+
+.ipynb_checkpoints/
+.DS_Store
+__pycache__/
