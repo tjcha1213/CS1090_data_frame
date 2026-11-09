@@ -13,6 +13,7 @@ The current stats-only gradient-boosting baseline reaches R² = 0.83 on the unto
 - Treat predictions as **Transfermarkt-style estimates**, not actual transfer fees.
 - Use only information available during or before the season being predicted; current club and player snapshot fields can leak future information.
 - Treat hidden-gem rankings as scouting leads, not recommendations: the early backtest is promising at the extreme top decile but is not consistent across all groups.
+- Injury logs are a promising extension: time-stamped injury type, days missed, and recurrence could help distinguish low minutes caused by injury from low minutes caused by selection and may improve predictions of future value changes. Any source should be checked for uneven coverage, and only information known by the prediction date should be used.
 
 | File | What it does |
 |---|---|
